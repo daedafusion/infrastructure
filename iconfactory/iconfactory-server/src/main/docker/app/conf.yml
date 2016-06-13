@@ -1,0 +1,7 @@
+# Docker plugin configuration
+packaging:
+  add:
+    - target/iconfactory-server.jar
+    - target/iconfactory-hibernate-${project.version}-plugin.zip
+    - target/aniketos-security-framework-provider-${aniketos.version}-plugin.zip
+tag: quay.io/daedafusion/iconfactory
